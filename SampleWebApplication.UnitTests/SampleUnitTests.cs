@@ -28,7 +28,7 @@ namespace SampleWebApplication.UnitTests
         {
             var controller = new HomeController();
             ActionResult result = controller.Contact();
-            Assert.AreEqual("Your contact page.", controller.ViewBag.Message);
+            Assert.AreEqual("Your contact pages.", controller.ViewBag.Message);
         }
     }
 }
